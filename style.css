@@ -1,0 +1,140 @@
+/* global styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/rainbowbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header */
+
+header {
+    border-bottom: solid black 1px;
+    background-color: rgb(219, 218, 218);
+    text-align: center;
+    padding: 1em;
+}
+
+/* form styles */
+
+#searchinput {
+    text-align: center;
+    padding: 20px;
+    background-color: lavender;
+    margin: 1em auto;
+    width: 50%;
+    border-radius: 15px;
+}
+
+#citylabel {
+    float: left;
+    clear: right;
+    width: 100%;
+}
+
+#cityname {
+    width: 70%;
+}
+
+#submit {
+    margin-top: 1em;
+    width: 50%;
+    transition: .3s;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+#searchhistory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    list-style: none;
+    margin-top: 1em;
+    margin-right: 70px;
+}
+
+#searchhistory a{
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+    border: black solid 1px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#searchhistory a:hover {
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#clearhistory:hover {
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+/* results div */
+
+#results {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    background-color: khaki;
+    width: 90%;
+    margin: 2em auto;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#weather {
+    background-color: lavender;
+    padding: 1em;
+}
+
+#weather p{
+    font-weight: bold;
+}
+
+.low {
+    color: green;
+}
+
+.med {
+    color: rgb(221, 221, 20);
+}
+
+.high {
+    color: red;
+}
+
+#current h5 {
+    text-decoration: underline;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+#forecast {
+    background-color: lavender;
+    padding: 1em;
+}
+
+#forecast p{
+    font-weight: bold;
+}
+
+/* footer styles */
+
+footer {
+    background-color:  rgb(219, 218, 218);
+    margin-bottom: 0;
+    height: 50px;
+    padding: 1em;
+}
